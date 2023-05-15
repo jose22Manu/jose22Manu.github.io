@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Trailers Peliculas HD</title>
+	<link rel="stylesheet" href="../estilo.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+
+	<section class="contenedor-header-navbar">
+
+	<header >	
+<img src="../img/logo.png" alt="" >
+<h1> Peliculas HD Trailers</h1> <!--Tiyulo de la pagina-->
+
+	</header>
+		
+	
+	<div class="navbar"> <!--BARRA DE NAVEGACION-->
+		<ul>
+		    <a href="../index.html">Inicio</a>
+
+		    <a href="#">peliculas</a>
+
+		    <a href="#">generos</a>
+
+		    <input type="text" name="buscar" placeholder="buscar" class="buscar">
+		</ul>
+
+		
+	</div>
+
+	<!-- CARROUSEL INICIO -->
+
+
+
+	<!-- Carrousel o slider inicio  -->
+
+
+	<section class="contenedor-slider">
+		<div class="slider">
+			<div class="slide">
+				<input type="radio" id="radio1">
+				<input type="radio" id="radio2">
+				<input type="radio" id="radio3">
+				<input type="radio" id="radio4">
+			
+
+			<div class="st first">
+				<img src="../img/imagen1.jpg" alt="">
+			</div>
+			<div class="st">
+				<img src="../img/imagen2.jpeg" alt="">
+			</div>
+			<div class="st">
+				<img src="../img/imagen3.jpg" alt="">
+			</div>
+			<div class="st">
+				<img src="../img/imagen4.jpg" alt="">
+			</div>
+
+
+
+			<div class="nav-auto">
+				<div class="a-b1"></div>
+				<div class="a-b2"></div>
+				<div class="a-b3"></div>
+				<div class="a-b4"></div>
+			</div>
+
+
+			<div class="nav-m">
+			<label for="radio1" class="m-btn"></label>
+			<label for="radio2" class="m-btn"></label>
+			<label for="radio3" class="m-btn"></label>
+			<label for="radio4" class="m-btn"></label>
+			</div>
+</div>
+
+
+
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+	<!-- CARROUSEL INICIO -->
+</div> <!-- FIN CARROUSEL-->
+
+</section>
+
+<hr>
+
+<section class="contenedor-peliculas">
+
+<h2 class="titulo-gen">Jurassic World: Dominion</h2>
+
+<div class="contenedor">
+  <img src="../img/carteles/cartel1.jpg" alt="Jurassic World: Dominion">
+  <div>
+  	<h2>Descripcion</h2>
+  <div class="descripcion">
+
+    <p>Tiempo después de los sucesos de Fallen Kingdom, los dinosaurios han vuelto a tomar el dominio en toda la tierra y los humanos tendrán que aprender a convivir con ellos mientras que un nuevo problema pondrá alta tensión a la situación. Owen Grady y Claire Dearing unirán fuerzas junto con la ayuda del famoso paleontólogo Alan Grant, la doctora Ellie Satler y el Doctor Ian Malcolm para resolverlo.</p>
+  </div>
+  </div>
+</div>
+</section>
+
+
+</section>
+
+<script type="text/javascript">
+
+		var counter = 1 ;
+		setInterval(function(){
+
+
+			document.getElementById('radio' + counter).checked=true;
+			counter++;
+
+			if(counter > 4){
+
+				counter = 1 ;
+
+			}
+			},4000);
+	
+	</script>
+
+</body>
